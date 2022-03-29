@@ -1,21 +1,15 @@
 import axios from "axios";
+import { cadastroDeEndereco } from "./main.js";
 
-function cadastroDeEndereco() {
-  const logradouro = document.getElementById("logradouro");
-  const numero = document.getElementById("numero");
-  const bairro = document.getElementById("bairro");
-  const cidade = document.getElementById("cidade");
-  const uf = document.getElementById("uf");
-}
-
-const url = `https://www.selida.com.br/avaliacaotecnica/api/`;
+const url = `https://www.selida.com.br/avaliacaotecnica/`;
 
 class Api {
   static async getAdress() {
-    const dados = axios
-      .get(`${url}endereco`)
-      .then((resp) => {
-        console.log(resp.data);
+    const inserirCliente = axios
+      .get(url)
+      .then((res) => {
+        console.log(res.data);
+        axios.put(`${url}endereco`, cadastroDeEndereco);
       })
       .catch((error) => {
         console.error(error);
