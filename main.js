@@ -1,20 +1,8 @@
 import axios from "axios";
 
-axios
-  .get("https://www.selida.com.br/avaliacaotecnica/api/Pessoas/GetAll", {
-    headers: {
-      chave: "AED57B57-F588-4AB7-AD02-DD99B49D44AF",
-    },
-  })
-  .then((res) => {
-    console.log(res.data);
-  })
-  .catch((error) => {
-    console.error(error);
-  });
-
-/*const adicionaDados = axios
-    .post(`${url}`, {
+function adicionaDados(nome, dataNascimento, idade, email, telefone, celular) {
+  axios
+    .post(`https://www.selida.com.br/avaliacaotecnica/api/Pessoas/`, {
       nome: nome,
       dataNascimento: dataNascimento,
       idade: idade,
@@ -28,5 +16,6 @@ axios
     .catch((error) => {
       console.log(error);
     });
+}
 
-  console.log(adicionaDados);*/
+console.log(adicionaDados("alan"));

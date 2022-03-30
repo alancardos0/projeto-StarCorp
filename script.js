@@ -1,6 +1,4 @@
-import axios from "axios";
-let btn = document.getElementById("btn");
-btn.addEventListener("click", cadastrarPessoas());
+const adicionaDados = require("./main.js");
 
 function cadastrarPessoas() {
   const nome = document.getElementById("nome").value;
@@ -9,7 +7,6 @@ function cadastrarPessoas() {
   const email = document.getElementById("email").value;
   const telefone = document.getElementById("telefone").value;
   const celular = document.getElementById("celular").value;
-  const url = `https://www.selida.com.br/avaliacaotecnica/api/Pessoas`;
 
-  alert("salve");
+  adicionaDados(nome, dataNascimento, idade, email, telefone, celular);
 }
