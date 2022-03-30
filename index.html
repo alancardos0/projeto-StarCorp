@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,28 +10,20 @@
   <body>
     <div id="salve">Teste StarCorp</div>
 
-    <form>
-      <input
-        type="text"
-        id="logradouro"
-        name="logradouro"
-        placeholder="Logradouro"
-      />
-      <br />
-      <input
-        type="number"
-        id="numero"
-        name="number"
-        placeholder="Número"
-      /><br />
-      <input type="text" id="bairro" name="bairro" placeholder="Bairro" /><br />
-      <input type="text" id="cidade" name="cidade" placeholder="Cidade" /><br />
-      <input type="text" id="uf" name="UF" placeholder="UF" /><br />
-      <button onclick="cadastroDeEndereco()" id="botao">Enviar</button>
-    </form>
+    <input type="text" id="nome" placeholder="Nome" />
+    <br />
+    <input
+      type="text"
+      id="dataNascimento"
+      placeholder="Data de Nascimento"
+    /><br />
+    <input type="number" id="idade" name="idade" placeholder="Idade" /><br />
+    <input type="text" id="email" name="email" placeholder="Email" /><br />
+    <input type="text" id="telefone" placeholder="Telefone" /><br />
+    <input type="text" id="celular" placeholder="Celular" />
+    <br />
+    <button id="btn">Enviar</button>
 
-    <div id="lista">
-      <ul></ul>
-    </div>
+    <ul id="list"></ul>
   </body>
 </html>
