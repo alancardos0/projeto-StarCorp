@@ -1,5 +1,4 @@
 const adicionaDados = require("./main.js");
-
 function cadastrarPessoas() {
   const nome = document.getElementById("nome").value;
   const dataNascimento = document.getElementById("dataNascimento").value;
