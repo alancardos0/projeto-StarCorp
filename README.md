@@ -4,6 +4,8 @@ Olá, eu sou o Alan Matheus!
 
 Esse é um projeto feito para uma vaga de emprego na StarCorp.
 
+### Rodar com NodeJs
+
 
 ### Requisitos
 - [x] Ter o Metodo GET.
