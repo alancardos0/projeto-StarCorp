@@ -4,7 +4,7 @@ Olá, eu sou o Alan Matheus!
 
 Esse é um projeto feito para uma vaga de emprego na StarCorp.
 
-### Rodar com NodeJs
+### Rodar com NodeJs e Axios.
 
 
 ### Requisitos
