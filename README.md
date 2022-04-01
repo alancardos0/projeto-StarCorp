@@ -14,9 +14,9 @@ Esse é um projeto feito para uma vaga de emprego na StarCorp.
 
 ### Melhorias Futuras
 
-- [] Fazer uma pagina para o usuario se cadastrar.
-- [] Aprender sobre ExpressJs.
-- [] Adicionar um CSS na página.
+- [ ] Fazer uma pagina para o usuario se cadastrar.
+- [ ] Aprender sobre ExpressJs.
+- [ ] Adicionar um CSS na página.
 
 
 
