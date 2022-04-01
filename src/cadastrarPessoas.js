@@ -16,7 +16,6 @@ function entrarEmContatoComApi() {
       console.log(error);
     });
 }
-
 //entrarEmContatoComApi();
 
 function adicionaDadosDoUsuarioNaApi() {
@@ -44,7 +43,6 @@ function adicionaDadosDoUsuarioNaApi() {
       console.log(error);
     });
 }
-
 //adicionaDadosDoUsuarioNaApi();
 
 function fazerAtualizacaoEmDadosDeUsuario(idUsuario) {
@@ -70,7 +68,6 @@ function fazerAtualizacaoEmDadosDeUsuario(idUsuario) {
     })
     .catch((error) => console.log(error));
 }
-
 //metodo Put, não está funcionando, o codigo em sí funciona porém a API não está recebendo.
 //fazerAtualizacaoEmDadosDeUsuario(9);
 
