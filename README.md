@@ -10,7 +10,6 @@ Esse é um projeto feito para uma vaga de emprego na StarCorp.
 - [x] Ter o Metodo Post
 - [x] Ter o Metodo Delete.
 - [x] Ter o Metodo Put.
-- [] Fazer uma pagina para o usuario se cadastrar.
 
 
 ### Melhorias Futuras
